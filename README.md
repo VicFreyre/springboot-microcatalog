@@ -62,8 +62,8 @@ Demonstrar uma arquitetura simples baseada em microsserviços, onde:
 
 1. **Clone o repositório**
    ```bash
-   git clone https://github.com/seuusuario/catalogo-pedidos-microsservicos.git
-   cd catalogo-pedidos-microsservicos
+   git clone https://github.com/VicFreyre/springboot-microcatalog/edit/main/README.md
+   cd springboot-microcatalog
 
 ## Execute os projetos na seguinte ordem:
 
