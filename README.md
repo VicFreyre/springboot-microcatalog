@@ -13,25 +13,25 @@ Demonstrar uma arquitetura simples baseada em microsserviços, onde:
 ## 🧱 Arquitetura
 
 
-               +----------------------+
-               |     Eureka Server    |
-               |   (Service Registry)  |
-               +----------+-----------+
-                          |
-           --------------+--------------
-           |                           |
-   +-------v-------+           +--------v--------+
-   | catalog-service|          |  order-service  |
-   |    (Produtos)  |          |    (Pedidos)    |
-   +-------+-------+           +--------+--------+
-           \                           /
-            \                         /
-             +----------+------------+
-                        |
-             +----------v----------+
-             |     API Gateway     |
-             |  (Spring Cloud GW)  |
-             +---------------------+
+                +----------------------+
+                |     Eureka Server    |
+                |   (Service Registry)  |
+                +----------+-----------+
+                            |
+            --------------+--------------
+            |                           |
+    +-------v-------+           +--------v--------+
+    | catalog-service|          |  order-service  |
+    |    (Produtos)  |          |    (Pedidos)    |
+    +-------+-------+           +--------+--------+
+            \                           /
+                \                         /
+                +----------+------------+
+                            |
+                +----------v----------+
+                |     API Gateway     |
+                |  (Spring Cloud GW)  |
+                +---------------------+
 
 
 
@@ -85,13 +85,13 @@ http://localhost:8761 → Painel do Eureka
 
 📁 Estrutura do Projeto
 
-catalogo-pedidos-microsservicos/
-│
-├── api-gateway/
-├── catalog-service/
-├── eureka-server/
-├── order-service/
-└── README.md
+    catalogo-pedidos-microsservicos/
+    │
+    ├── api-gateway/
+    ├── catalog-service/
+    ├── eureka-server/
+    ├── order-service/
+    └── README.md
 
 
 ## 🛠️ Tecnologias Utilizadas
