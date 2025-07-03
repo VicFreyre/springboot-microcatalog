@@ -87,11 +87,12 @@ http://localhost:8761 → Painel do Eureka
 
 catalogo-pedidos-microsservicos/
 │
-├── eureka-server/
-├── catalog-service/
-├── order-service/
 ├── api-gateway/
+├── catalog-service/
+├── eureka-server/
+├── order-service/
 └── README.md
+
 
 ## 🛠️ Tecnologias Utilizadas
 
