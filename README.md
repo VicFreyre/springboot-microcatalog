@@ -17,7 +17,7 @@ Demonstrar uma arquitetura simples baseada em microsserviços, onde:
                 |     Eureka Server    |
                 |   (Service Registry)  |
                 +----------+-----------+
-                            |
+                          |
             --------------+--------------
             |                           |
     +-------v-------+           +--------v--------+
@@ -25,9 +25,9 @@ Demonstrar uma arquitetura simples baseada em microsserviços, onde:
     |    (Produtos)  |          |    (Pedidos)    |
     +-------+-------+           +--------+--------+
             \                           /
-                \                         /
+              \                        /
                 +----------+------------+
-                            |
+                          |
                 +----------v----------+
                 |     API Gateway     |
                 |  (Spring Cloud GW)  |
@@ -105,11 +105,6 @@ http://localhost:8761 → Painel do Eureka
 | REST (HTTP)                | ![REST](https://img.shields.io/badge/REST-API-blue)                              |
 | Maven                      | ![Maven](https://img.shields.io/badge/Maven-C71A36?logo=apachemaven&logoColor=white)          |
 
-
-## 📚 Referências
-Spring Cloud Netflix Docs
-Spring Cloud Gateway
-Baeldung - Microservices with Spring Boot
 
 
 
